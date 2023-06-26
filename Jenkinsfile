@@ -20,13 +20,13 @@ pipeline {
                 }
             }
             steps {
-                testi()
+                testing()
             }
         }
         
         stage('deploy') {  
             steps {
-               deploy()
+               deployingImage()
             }
         }    
     }
