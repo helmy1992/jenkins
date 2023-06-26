@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                building()
+                buildi()
             }
         }
 
@@ -20,13 +20,13 @@ pipeline {
                 }
             }
             steps {
-                testing()
+                testi()
             }
         }
         
         stage('deploy') {  
             steps {
-               deploying()
+               deploy()
             }
         }    
     }
