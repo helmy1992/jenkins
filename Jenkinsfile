@@ -13,6 +13,12 @@ pipeline {
             }
         }
 
+         stage('builddocker') {
+            steps {
+                  buldingdocker()
+            }
+        }
+
         stage('test') {
             when {
                 expression{
