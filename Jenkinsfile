@@ -39,8 +39,7 @@ pipeline {
             echo 'your app is deployed successfully'
         }
         failure {
-            echo 'dyploying failure'
+            echo 'deploying failure'
         }
-
-}
+    }
 }
